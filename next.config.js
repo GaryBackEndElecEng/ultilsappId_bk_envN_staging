@@ -12,7 +12,8 @@ const nextConfig = {
         adminpassword:process.env.adminpassword,
         CSRF_SECRET:process.env.CSRF_SECRET,
         NEXTAUTH_SECRET:process.env.NEXTAUTH_SECRET,
-        
+        NEXT_PUBLIC_aws:process.env.NEXT_PUBLIC_aws,
+        NEXT_PUBLIC_aws_static:process.env.NEXT_PUBLIC_aws_static
        },
        async headers() {
         return [
