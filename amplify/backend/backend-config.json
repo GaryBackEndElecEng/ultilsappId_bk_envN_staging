@@ -1,0 +1,154 @@
+{
+  "function": {
+    "mastertest0dfd70c4": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "mastertest9a45029c": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_mastertest0dfd70c4_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertest0dfd70c4"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertest0dfd70c4_nextPublicFinhubApi": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertest0dfd70c4"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertest0dfd70c4_nextPublicRapidAip": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertest0dfd70c4"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertest0dfd70c4_nextPublicRawio": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertest0dfd70c4"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertest0dfd70c4_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertest0dfd70c4"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertest9a45029c_adminpassword": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertest9a45029c"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertest9a45029c_csrfSecret": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertest9a45029c"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertest9a45029c_databaseUrlHeroku": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertest9a45029c"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertest9a45029c_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertest9a45029c"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertest9a45029c_githubId": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertest9a45029c"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertest9a45029c_githubSecret": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertest9a45029c"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertest9a45029c_googleClientId": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertest9a45029c"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertest9a45029c_googleClientSecret": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertest9a45029c"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertest9a45029c_nextPublicAdminemail": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertest9a45029c"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertest9a45029c_nextPublicAdminuser": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertest9a45029c"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertest9a45029c_nextauthCsrf": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertest9a45029c"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertest9a45029c_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertest9a45029c"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "databaseUrlHeroku",
+      "environmentVariableName": "DATABASE_URL_heroku"
+    },
+    {
+      "cloudFormationParameterName": "googleClientId",
+      "environmentVariableName": "GOOGLE_client_ID"
+    },
+    {
+      "cloudFormationParameterName": "googleClientSecret",
+      "environmentVariableName": "GOOGLE_client_secret"
+    },
+    {
+      "cloudFormationParameterName": "githubSecret",
+      "environmentVariableName": "GITHUB_SECRET"
+    },
+    {
+      "cloudFormationParameterName": "githubId",
+      "environmentVariableName": "GITHUB_ID"
+    },
+    {
+      "cloudFormationParameterName": "csrfSecret",
+      "environmentVariableName": "CSRF_SECRET"
+    },
+    {
+      "cloudFormationParameterName": "nextauthCsrf",
+      "environmentVariableName": "NEXTAUTH_CSRF"
+    },
+    {
+      "cloudFormationParameterName": "adminpassword",
+      "environmentVariableName": "adminpassword"
+    },
+    {
+      "cloudFormationParameterName": "nextPublicAdminuser",
+      "environmentVariableName": "NEXT_PUBLIC_adminuser"
+    },
+    {
+      "cloudFormationParameterName": "nextPublicAdminemail",
+      "environmentVariableName": "NEXT_PUBLIC_adminemail"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mastertest-dev-94357-authRole",
+      "UnauthRoleArn": "arn:aws:iam::302619268814:role/amplify-mastertest-dev-94357-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::302619268814:role/amplify-mastertest-dev-94357-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-mastertest-dev-94357-deployment",
+      "UnauthRoleName": "amplify-mastertest-dev-94357-unauthRole",
+      "StackName": "amplify-mastertest-dev-94357",
+      "StackId": "arn:aws:cloudformation:us-east-1:302619268814:stack/amplify-mastertest-dev-94357/6e300460-4cbb-11ee-9d5c-1226aae3d027",
+      "AmplifyAppId": "d2yh73naux30nt"
+    },
+    "categories": {
+      "function": {
+        "mastertest9a45029c": {
+          "databaseUrlHeroku": "postgres://mclguidaurgejp:e9ee53c76d01a511a9276af04719c7518939bcde976527d5075de9a3ca4cf3a5@ec2-44-206-204-65.compute-1.amazonaws.com:5432/devh2fmigu8ts3",
+          "googleClientId": "597973422399-v63cjnq00hmg8k05rheuh3lq2vhah5gb.apps.googleusercontent.com",
+          "googleClientSecret": "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",
+          "githubSecret": "041914d60385fb14f10a53726d3c6563881c7fda",
+          "githubId": "abc3def994bdmhs22",
+          "csrfSecret": "aSZOMKZofVdYdCoD",
+          "nextauthCsrf": "aSZOMKZofVdYdCoD+IjSZ75RD92VbciuBLxAKj/3P=",
+          "adminpassword": "JamieIs12",
+          "nextPublicAdminuser": "gary Wallace",
+          "nextPublicAdminemail": "masterconnect919@gmail.com",
+          "deploymentBucketName": "amplify-mastertest-dev-94357-deployment",
+          "s3Key": "amplify-builds/mastertest9a45029c-33336e79465231626e37-build.zip"
+        },
+        "mastertest0dfd70c4": {
+          "nextPublicFinhubApi": "ci8qb8pr01qitdq2a8bgci8qb8pr01qitdq2a8c0",
+          "nextPublicRapidAip": "512e19eb3cmsh0b9bf8c65edd50ep11ae4bjsn9a01883aacf8",
+          "nextPublicRawio": "bfad0231bfbb4c3d93a4e6889f9e09ca",
+          "deploymentBucketName": "amplify-mastertest-dev-94357-deployment",
+          "s3Key": "amplify-builds/mastertest0dfd70c4-37777556366373357039-build.zip"
+        }
+      }
+    }
+  },
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mastertest-staging-231634-authRole",
+      "UnauthRoleArn": "arn:aws:iam::302619268814:role/amplify-mastertest-staging-231634-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::302619268814:role/amplify-mastertest-staging-231634-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-mastertest-staging-231634-deployment",
+      "UnauthRoleName": "amplify-mastertest-staging-231634-unauthRole",
+      "StackName": "amplify-mastertest-staging-231634",
+      "StackId": "arn:aws:cloudformation:us-east-1:302619268814:stack/amplify-mastertest-staging-231634/f3bf62d0-4d2c-11ee-aa6b-0e3c91f2cc6f",
+      "AmplifyAppId": "d1bt3z5ydcalbk"
+    },
+    "categories": {
+      "function": {
+        "mastertest0dfd70c4": {
+          "nextPublicFinhubApi": "ci8qb8pr01qitdq2a8bgci8qb8pr01qitdq2a8c0",
+          "nextPublicRapidAip": "512e19eb3cmsh0b9bf8c65edd50ep11ae4bjsn9a01883aacf8",
+          "nextPublicRawio": "bfad0231bfbb4c3d93a4e6889f9e09ca",
+          "deploymentBucketName": "amplify-mastertest-staging-231634-deployment",
+          "s3Key": "amplify-builds/mastertest0dfd70c4-37777556366373357039-build.zip"
+        },
+        "mastertest9a45029c": {
+          "databaseUrlHeroku": "postgres://mclguidaurgejp:e9ee53c76d01a511a9276af04719c7518939bcde976527d5075de9a3ca4cf3a5@ec2-44-206-204-65.compute-1.amazonaws.com:5432/devh2fmigu8ts3",
+          "googleClientId": "597973422399-v63cjnq00hmg8k05rheuh3lq2vhah5gb.apps.googleusercontent.com",
+          "googleClientSecret": "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",
+          "githubSecret": "041914d60385fb14f10a53726d3c6563881c7fda",
+          "githubId": "abc3def994bdmhs22",
+          "csrfSecret": "aSZOMKZofVdYdCoD",
+          "nextauthCsrf": "aSZOMKZofVdYdCoD+IjSZ75RD92VbciuBLxAKj/3P=",
+          "adminpassword": "JamieIs12",
+          "nextPublicAdminuser": "gary Wallace",
+          "nextPublicAdminemail": "masterconnect919@gmail.com",
+          "deploymentBucketName": "amplify-mastertest-staging-231634-deployment",
+          "s3Key": "amplify-builds/mastertest9a45029c-33336e79465231626e37-build.zip"
+        }
+      }
+    }
+  }
+}

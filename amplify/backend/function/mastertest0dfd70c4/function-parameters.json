@@ -1,0 +1,17 @@
+{
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "nextPublicFinhubApi",
+      "environmentVariableName": "NEXT_PUBLIC_finhubAPI"
+    },
+    {
+      "cloudFormationParameterName": "nextPublicRapidAip",
+      "environmentVariableName": "NEXT_PUBLIC_rapidAip"
+    },
+    {
+      "cloudFormationParameterName": "nextPublicRawio",
+      "environmentVariableName": "NEXT_PUBLIC_rawio"
+    }
+  ]
+}
