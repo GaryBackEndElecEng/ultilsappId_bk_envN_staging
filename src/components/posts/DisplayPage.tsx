@@ -10,8 +10,8 @@ import { convertDate } from "@component/ultilities"
 
 
 type mainDisplayType = {
-    setUsersPosts: React.Dispatch<React.SetStateAction<DataType>>,
-    usersPosts: DataType,
+    setUsersPosts: React.Dispatch<React.SetStateAction<PostDataType[]>>,
+    usersPosts: PostDataType[],
     userId: string | null
 }
 const DisplayPage = ({ usersPosts, setUsersPosts, userId }: mainDisplayType) => {

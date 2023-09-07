@@ -14,7 +14,7 @@ const DeleteUser = ({user,adminuser,adminemail}:maindeleteType) => {
     const { allUsers,setAllUsers}=React.useContext(GeneralContext);
     const [msg,setMsg]=React.useState<msgType>({loaded:false,msg:""})
 
-    const handleDeleteUser= async(e:React.MouseEvent,id:number)=>{
+    const handleDeleteUser= async(e:React.MouseEvent,id:string)=>{
         const csrfToken= await getCsrfToken();
         if(adminuser && adminemail && id)
         {

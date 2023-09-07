@@ -24,12 +24,12 @@ import prisma from "@_prisma/client";
             });
             if(!user){
                 res.status(400).json({message:`there is no user of type email:${email}`})
-            }else if(user && user.name){
+            }else if(user && user.name && user.email){
             const userAccount:userAccountType={
                 loaded:true,
                 data:{
                     id:user.id,
-                    name:user?.name,
+                    name:user.name,
                     email:user.email,
                     image:user?.image as string,
                     status:"authenticated"

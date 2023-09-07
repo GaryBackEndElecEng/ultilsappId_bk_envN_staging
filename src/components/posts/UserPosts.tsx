@@ -2,7 +2,7 @@
 import React from 'react';
 import DisplayPage from "@/components/posts/DisplayPage";
 import { useSearchParams } from 'next/navigation';
-import { DataType, userAccountType,msgType } from "@component/context/type";
+import { PostDataType, userAccountType,msgType } from "@component/context/type";
 import { GeneralContext } from "@component/context/GeneralContextProvider";
 import {useSession} from "next-auth/react";
 import httpUrl from "@component/context/httpUrl";
@@ -17,7 +17,7 @@ type userPostsType={
 const UserPosts = ({getUserAccount}:userPostsType) => {
   const router=useRouter();
   // const userId: string | null=params ? params.get("userId") : null;
-  const [usersPosts, setUsersPosts] = React.useState<DataType>([]);
+  const [usersPosts, setUsersPosts] = React.useState<PostDataType[]>([]);
   const { account, setAccount,setIsSignin, setMsg,msg,setGenMsg,genMsg,allPosts } = React.useContext(GeneralContext);
   const [msg2,setMsg2]=React.useState<msgType>({loaded:false,msg:""})
   const getUserId =(account && account.loaded && account.data) ? account.data.id : null;

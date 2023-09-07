@@ -1,0 +1,57 @@
+{
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "databaseUrlHeroku",
+      "environmentVariableName": "DATABASE_URL_heroku"
+    },
+    {
+      "cloudFormationParameterName": "googleClientId",
+      "environmentVariableName": "GOOGLE_client_ID"
+    },
+    {
+      "cloudFormationParameterName": "googleClientSecret",
+      "environmentVariableName": "GOOGLE_client_secret"
+    },
+    {
+      "cloudFormationParameterName": "nextauthSecret",
+      "environmentVariableName": "NEXTAUTH_SECRET"
+    },
+    {
+      "cloudFormationParameterName": "csrfSecret",
+      "environmentVariableName": "CSRF_SECRET"
+    },
+    {
+      "cloudFormationParameterName": "nextauthCsrf",
+      "environmentVariableName": "NEXTAUTH_CSRF"
+    },
+    {
+      "cloudFormationParameterName": "adminpassword",
+      "environmentVariableName": "adminpassword"
+    },
+    {
+      "cloudFormationParameterName": "nextPublicAdminuser",
+      "environmentVariableName": "NEXT_PUBLIC_adminuser"
+    },
+    {
+      "cloudFormationParameterName": "nextPublicAdminemail",
+      "environmentVariableName": "NEXT_PUBLIC_adminemail"
+    },
+    {
+      "cloudFormationParameterName": "nextPublicRawio",
+      "environmentVariableName": "NEXT_PUBLIC_rawio"
+    },
+    {
+      "cloudFormationParameterName": "nextPublicFinhubApi",
+      "environmentVariableName": "NEXT_PUBLIC_finhubAPI"
+    },
+    {
+      "cloudFormationParameterName": "nextPublicRapidAip",
+      "environmentVariableName": "NEXT_PUBLIC_rapidAip"
+    },
+    {
+      "cloudFormationParameterName": "customKey",
+      "environmentVariableName": "customKey"
+    }
+  ]
+}

@@ -37,7 +37,7 @@ const Register = ({genHash}:mainRegisterType) => {
         }else{
             setMsg({loaded:false,msg:"password is at least 5 letters long with one uppercase and one !,^,?,,special character"})
         }
-    },[pswd,setData,setMsg]);
+    },[pswd,setData,setMsg,genHash,pswdTest]);
     
 
     const registerUser = (e: React.FormEvent<HTMLFormElement>) => {
@@ -68,9 +68,9 @@ const Register = ({genHash}:mainRegisterType) => {
                 loaded:true,
                 data:{
                     id:body.id,
-                    name:body.name,
-                    email:body.email,
-                    image:body.image,
+                    name:body?.name,
+                    email:body?.email,
+                    image:body?.image,
                     status:"authenticated"
                 }
             }

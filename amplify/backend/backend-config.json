@@ -11,6 +11,12 @@
       "dependsOn": [],
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
+    },
+    "mastertestc97e153b": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
     }
   },
   "parameters": {
@@ -147,6 +153,126 @@
         {
           "category": "function",
           "resourceName": "mastertest9a45029c"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertestc97e153b_adminpassword": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertestc97e153b"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertestc97e153b_csrfSecret": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertestc97e153b"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertestc97e153b_customKey": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertestc97e153b"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertestc97e153b_databaseUrlHeroku": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertestc97e153b"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertestc97e153b_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertestc97e153b"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertestc97e153b_googleClientId": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertestc97e153b"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertestc97e153b_googleClientSecret": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertestc97e153b"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertestc97e153b_nextPublicAdminemail": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertestc97e153b"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertestc97e153b_nextPublicAdminuser": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertestc97e153b"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertestc97e153b_nextPublicFinhubApi": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertestc97e153b"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertestc97e153b_nextPublicRapidAip": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertestc97e153b"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertestc97e153b_nextPublicRawio": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertestc97e153b"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertestc97e153b_nextauthCsrf": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertestc97e153b"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertestc97e153b_nextauthSecret": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertestc97e153b"
+        }
+      ]
+    },
+    "AMPLIFY_function_mastertestc97e153b_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mastertestc97e153b"
         }
       ]
     }

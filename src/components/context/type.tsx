@@ -14,16 +14,19 @@ import type {Session} from "next-auth"
   id_token?:string,            
   session_state?:string,
   }
+
+  export type sessionType= Session
+
 export type userType={
     id:string,
-    name?:string,
-    email?:string,
+    name:string |null,
+    email:string |null,
     emailVerified: Date | null,
     password:string,
-    image?:string,
+    image:string |null,
     posts:PostDataType[],
     answers:answerType[],
-    accounts:accountType[]
+    accounts:accountType[],
 }
 export type userTypeNoAcc={
     id:string,
@@ -134,10 +137,10 @@ export type userAccountType={
     loaded:boolean,
     data:{
       id:string,
-    name:string | undefined,
-    email:string | undefined,
-    image:string | undefined,
-    status: "loading" | "authenticated" | "unauthenticated"
+      name:string | null,
+      email:string | null,
+      image:string | null,
+      status: "loading" | "authenticated" | "unauthenticated"
     } | null
   }
   export type answerType={

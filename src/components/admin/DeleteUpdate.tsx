@@ -57,8 +57,11 @@ const DeleteUpdate = ({post}:mainDeleteType) => {
                     let remainingAns:answerType[]=user.answers.filter(ans=>(ans.postId !==body.id))
                     let combinedUser:userType={
                         id:user.id,
-                        name:user.name,
-                        email:user.email,
+                        name:user?.name,
+                        email:user?.email,
+                        image:user?.image,
+                        emailVerified:user?.emailVerified,
+                        accounts:user.accounts,
                         password:user.password,
                         posts:remainingPosts,
                         answers:remainingAns
